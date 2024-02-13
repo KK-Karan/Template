@@ -1,0 +1,36 @@
+.landing__page{
+    width: 100%;
+    height: 96vh;
+    background-color: #18181B;
+    border-radius: 24px;
+}
+
+.news__dropdown{
+    margin:1rem 0 0 4rem;
+}
+
+.settings__button{
+    margin-top: 1rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap:32px;
+}
+
+.credentials{
+    display: flex;
+    gap:16px;
+}
+
+.hero__bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ .register:focus{
+   visibility: hidden;
+ }

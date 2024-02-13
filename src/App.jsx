@@ -1,11 +1,17 @@
 
+import { useState } from 'react'
 import './App.css'
-
+import Hero from './Hero/Hero.jsx'
+import Navbar from './Navbar/Navbar.jsx'
+import Tables from './Table/Table.jsx'
 function App() {
+
 
   return (
     <>
- <h1 className='text-6xl'>Hello</h1>       
+    <Hero />
+    <Navbar />
+    <Tables />
     </>
   )
 }
